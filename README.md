@@ -184,7 +184,7 @@ This builds the C# project in the release mode and places the output in the `bui
 Once the image is rebuilt we can launch our program inside the container:
 
 ```
-docker run csharpdate dotnet /app/build/bin/date.dll
+docker run csharpdate dotnet /app/build/date.dll
 ```
 
 this will print again the current UTC time, but this time coming from our C# program!
